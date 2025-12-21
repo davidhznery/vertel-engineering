@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertice Engineering | Excellence in Oil & Gas</title>
+    <meta name="description"
+        content="Vertice Engineering provides professional engineering services for the Oil & Gas industry in Latin America. Expertise in Front-end, Detail engineering, and Project execution support.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Header will be injected by main.js or hardcoded -->
+        <header id="main-header" class="header">
+            <nav class="nav-container">
+                <div class="logo">
+                    <svg class="logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5L35 30H5L20 5Z" stroke="currentColor" stroke-width="2.5"
+                            stroke-linejoin="round" />
+                        <path d="M20 5V30" stroke="currentColor" stroke-width="2.5" />
+                        <path d="M12 20L20 15L28 20" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <span class="logo-text">Vertice<span class="logo-sub">Engineering</span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="nav-home">Home</a></li>
+                    <li><a href="#services" data-i18n="nav-services">Services</a></li>
+                    <li><a href="#portfolio" data-i18n="nav-portfolio">Portfolio</a></li>
+                    <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button id="lang-toggle" class="lang-btn">ES / EN</button>
+                    <a href="#contact" class="btn btn-primary" data-i18n="nav-cta">Get in Touch</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Sections will be structural for now -->
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero-title">Advancing Energy through <br><span
+                            class="gradient-text">Engineering Excellence</span></h1>
+                    <p class="hero-subtitle" data-i18n="hero-subtitle">Boutique engineering services for the Latin
+                        American Oil & Gas industry. Specializing in Consulting, Detail Engineering, and Project
+                        Management.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#services" class="btn btn-primary" data-i18n="hero-cta-1">Our Services</a>
+                        <a href="#portfolio" class="btn btn-secondary" data-i18n="hero-cta-2">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Placeholder for high-impact visual -->
+                    <div class="hero-image-container">
+                        <div class="visual-overlay"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title" data-i18n="services-title">Specialized Services</h2>
+                        <p class="section-desc" data-i18n="services-subtitle">Tailored technical solutions for every
+                            stage of your project's lifecycle.</p>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 7H17" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 11H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 15H13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="service-1-title">Engineering Consulting</h3>
+                            <p data-i18n="service-1-desc">Strategic technical advice, feasibility studies, and FEED to
+                                ensure a solid
+                                foundation for your energy investments.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 7L7 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 3H3V21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21 3L3 21" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7 3V5" stroke="currentColor" stroke-width="2" />
+                                    <path d="M11 3V5" stroke="currentColor" stroke-width="2" />
+                                    <path d="M15 3V5" stroke="currentColor" stroke-width="2" />
+                                    <path d="M19 3V5" stroke="currentColor" stroke-width="2" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="service-2-title">Detail Engineering</h3>
+                            <p data-i18n="service-2-desc">Comprehensive designs, precise technical specifications, and
+                                construction-ready plans for safe
+                                facility execution.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                                        stroke="var(--accent)" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M19.4 15V9L16 7.05L12.6 5.1L9.2 7.05L5.8 9V15L9.2 16.95L12.6 18.9L16 16.95L19.4 15Z"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 5.1V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12 15V18.9" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M5.8 9L9.2 11" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M19.4 15L16 13" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="service-3-title">Project Management</h3>
+                            <p data-i18n="service-3-desc">End-to-end technical oversight and management from procurement
+                                through construction
+                                and final commissioning.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="section bg-light">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title" data-i18n="portfolio-title">Strategic Projects</h2>
+                        <p class="section-desc" data-i18n="portfolio-subtitle">Proven track record of success across
+                            Colombia, Ecuador, and the Andean region.</p>
+                    </div>
+                    <div class="portfolio-grid" id="portfolio-container">
+                        <!-- Portfolio items will be injected -->
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title" data-i18n="contact-title">Contact Us</h2>
+                        <p class="section-desc" data-i18n="contact-subtitle">Get in touch with our engineering team to
+                            discuss your next project.</p>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <h4 data-i18n="contact-loc-title">Regional Offices</h4>
+                                    <p>Calle 93 #11-13, Bogotá, Colombia</p>
+                                    <p>Av. Amazonas N39-161, Quito, Ecuador</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <div>
+                                    <h4 data-i18n="contact-email-title">Email Us</h4>
+                                    <p>projects@vertice-eng.com</p>
+                                    <p>info@vertice-eng.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <div>
+                                    <h4 data-i18n="contact-phone-title">Call Us</h4>
+                                    <p>+57 1 744 0000 (Colombia)</p>
+                                    <p>+593 2 298 0000 (Ecuador)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="form-name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="form-email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" data-i18n="form-subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="feed" data-i18n="opt-feed">Engineering Consulting</option>
+                                    <option value="detail" data-i18n="opt-detail">Detail Engineering</option>
+                                    <option value="support" data-i18n="opt-support">Project Management</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-i18n="form-message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" data-i18n="form-submit">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-info">
+                        <div class="logo white">
+                            <svg class="logo-svg" width="32" height="32" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 5L35 30H5L20 5Z" stroke="currentColor" stroke-width="2.5"
+                                    stroke-linejoin="round" />
+                                <path d="M20 5V30" stroke="currentColor" stroke-width="2.5" />
+                                <path d="M12 20L20 15L28 20" stroke="var(--accent)" stroke-width="2.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="logo-text">Vertice<span class="logo-sub">Engineering</span></span>
+                        </div>
+                        <p data-i18n="footer-desc">Professional engineering services for Latin America's energy future.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h4 data-i18n="footer-links-title">Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4 data-i18n="footer-contact-title">Contact Us</h4>
+                        <p>info@vertice-eng.com</p>
+                        <p>Bogotá, Colombia | Quito, Ecuador</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p data-i18n="footer-copy">&copy; 2025 Vertice Engineering. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
