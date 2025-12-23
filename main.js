@@ -84,7 +84,7 @@ const portfolioProjects = [
         title: { en: 'Refinery Expansion Phase II', es: 'Expansión de Refinería Fase II' },
         category: { en: 'Detail Engineering', es: 'Ingeniería de Detalle' },
         country: 'Colombia',
-        image: 'assets/project-1.png',
+        image: '/assets/project-1.png',
         summary: {
             en: 'Comprehensive detail engineering for the capacity increase of a major refinery in Barrancabermeja.',
             es: 'Ingeniería de detalle integral para el aumento de capacidad de una refinería principal en Barrancabermeja.'
@@ -94,7 +94,7 @@ const portfolioProjects = [
         title: { en: 'Offshore Platform FEED', es: 'FEED para Plataforma Offshore' },
         category: { en: 'Engineering Consulting', es: 'Consultoría de Ingeniería' },
         country: 'Ecuador',
-        image: 'assets/project-2.png',
+        image: '/assets/project-2.png',
         summary: {
             en: 'Conceptual and engineering consulting for a new production platform in the Gulf of Guayaquil.',
             es: 'Consultoría técnica y conceptual para una nueva plataforma de producción en el Golfo de Guayaquil.'
@@ -104,7 +104,7 @@ const portfolioProjects = [
         title: { en: 'Pipeline Integrity Support', es: 'Soporte de Integridad de Ductos' },
         category: { en: 'Project Management', es: 'Gerencia de Proyectos' },
         country: 'Peru',
-        image: 'assets/project-3.png',
+        image: '/assets/project-3.png',
         summary: {
             en: 'Comprehensive project management and inspection services for regional pipeline replacement projects.',
             es: 'Gerencia integral de proyecto y servicios de inspección para proyectos regionales de reemplazo de ductos.'
@@ -114,10 +114,30 @@ const portfolioProjects = [
         title: { en: '20km Pipeline Construction', es: 'Construcción de 20 km de Gasoducto' },
         category: { en: 'Project Management', es: 'Gerencia de Proyectos' },
         country: 'Venezuela',
-        image: 'assets/project-4.png',
+        image: '/assets/project-4.png',
         summary: {
             en: 'Strategic construction oversight for a 20 km pipeline expansion project in eastern Venezuela.',
             es: 'Supervisión estratégica de construcción para un proyecto de expansión de 20 km de gasoducto en el oriente de Venezuela.'
+        }
+    },
+    {
+        title: { en: 'Jose Antonio Petrochemical FEED', es: 'FEED Complejo Petroquímico Jose Antonio' },
+        category: { en: 'Engineering Consulting', es: 'Consultoría de Ingeniería' },
+        country: 'Venezuela',
+        image: '/assets/project-5.png',
+        summary: {
+            en: 'Engineering feasibility study and FEED for the modernization of the Jose Antonio Anzoátegui Petrochemical Complex.',
+            es: 'Estudio de factibilidad técnica y FEED para la modernización del Complejo Petroquímico José Antonio Anzoátegui.'
+        }
+    },
+    {
+        title: { en: 'Gas Compression Modernization', es: 'Modernización de Compresión de Gas' },
+        category: { en: 'Detail Engineering', es: 'Ingeniería de Detalle' },
+        country: 'Venezuela',
+        image: '/assets/project-6.png',
+        summary: {
+            en: 'Detailed engineering for the automation and capacity increase of a major gas compression plant.',
+            es: 'Ingeniería de detalle para la automatización y aumento de capacidad de una planta principal de compresión de gas.'
         }
     }
 ];

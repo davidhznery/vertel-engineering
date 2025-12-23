@@ -273,7 +273,7 @@ h3,
 .hero-image-container {
     width: 100%;
     height: 100%;
-    background-image: url('assets/hero-bg.png');
+    background-image: url('/assets/hero-bg.png');
     /* We'll generate this */
     background-size: cover;
     background-position: center;
