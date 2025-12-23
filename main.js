@@ -109,6 +109,16 @@ const portfolioProjects = [
             en: 'Comprehensive project management and inspection services for regional pipeline replacement projects.',
             es: 'Gerencia integral de proyecto y servicios de inspección para proyectos regionales de reemplazo de ductos.'
         }
+    },
+    {
+        title: { en: '20km Pipeline Construction', es: 'Construcción de 20 km de Gasoducto' },
+        category: { en: 'Project Management', es: 'Gerencia de Proyectos' },
+        country: 'Venezuela',
+        image: 'assets/project-4.png',
+        summary: {
+            en: 'Strategic construction oversight for a 20 km pipeline expansion project in eastern Venezuela.',
+            es: 'Supervisión estratégica de construcción para un proyecto de expansión de 20 km de gasoducto en el oriente de Venezuela.'
+        }
     }
 ];
 
